@@ -3,6 +3,7 @@
 Using official pretrained weights of CleanUNet, you can test it with your own .wav files.
 
 .wav files should have 16,000 sampling rate and mono channel
+
 see bash_scripts.sh and just copy paste
 
 Use poetry for dependencies or you have to refer to the original repo
