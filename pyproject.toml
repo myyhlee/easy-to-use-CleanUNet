@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "cleanunet-fixed"
+version = "0.1.0"
+description = ""
+authors = ["myyhlee <lyho1127@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cleanunet_fixed"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.11"
+numpy = "1.23"
+scipy = "^1.10.1"
+torch = "^1.13.1"
+torchvision = "^0.14.1"
+torchaudio = "^0.13.1"
+pesq = "^0.0.4"
+pystoi = "^0.3.3"
+tqdm = "^4.64.1"
+soundfile = "^0.12.1"
+numba = "^0.56.4"
+librosa = "^0.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.21.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
