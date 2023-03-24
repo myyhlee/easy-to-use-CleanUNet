@@ -7,7 +7,7 @@ Using official pretrained weights of CleanUNet, you can test it with your own .w
 see bash_scripts.sh and just copy paste
 
 Use poetry for dependencies or you have to refer to the original repo
-
+https://github.com/NVIDIA/CleanUNet
 
 
 
